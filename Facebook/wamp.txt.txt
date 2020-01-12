@@ -1,0 +1,16 @@
+create database facebook;
+use facebook;
+create table login(
+user_id varchar(30),
+Email varchar(30),
+password varchar(30),
+primary key(user_id));
+
+insert into login values("101","azizul@gmail.com","azizul");
+
+create table User(
+User_id varchar(30),
+Fname varchar(30),
+Lname varchar(30),
+Birth_date varchar(30),
+phone varchar(30));
